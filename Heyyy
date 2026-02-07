@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Rose Day</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      font-family: Arial, sans-serif;
+    }
+
+    .floating-link {
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      padding: 20px 40px;
+      background: #e63946;
+      border-radius: 50px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+
+    .floating-link:hover {
+      background: #ff4d6d;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#" class="floating-link">
+    🌹 Happy Rose Day My Rose 🌹
+  </a>
+
+</body>
+</html>
